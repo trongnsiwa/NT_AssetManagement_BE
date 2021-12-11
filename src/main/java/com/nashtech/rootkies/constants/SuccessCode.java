@@ -1,0 +1,64 @@
+package com.nashtech.rootkies.constants;
+
+public class SuccessCode {
+
+    /** USER AUTH **/
+    public static final String USER_LOGIN_SUCCESS = "USER_LOGIN_SUCCESS";
+    public static final String USER_CHANGE_PASSWORD_SUCCESS = "USER_CHANGE_PASSWORD_SUCCESS";
+    public static final String USER_GET_STATUS_DELETE_SUCCESS = "USER_GET_STATUS_DELETE_SUCCESS";
+
+    /** USER**/
+    public static final String USER_LOADED_SUCCESS  = "USER_LOADED_SUCCESS";
+    public static final String USER_LIST_LOADED_SUCCESS = "USER_LIST_LOADED_SUCCESS";
+    public static final String USER_CREATED_SUCCESS = "USER_CREATED_SUCCESS";
+    public static final String USER_UPDATE_SUCCESS = "USER_UPDATE_SUCCESS";
+    public static final String USER_DELETE_SUCCESS = "USER_DELETE_SUCCESS";
+    public static final String USER_UPDATE_PASSWORD_SUCCESS = "USER_UPDATE_PASSWORD_SUCCESS";
+
+    /** TYPE **/
+    public static final String TYPE_LOADED_SUCCESS = "TYPE_LOADED_SUCCESS";
+    public static final String TYPE_LIST_LOADED_SUCCESS = "TYPE_LIST_LOADED_SUCCESS";
+
+    /** CATEGORY **/
+    public static final String CATEGORY_LOADED_SUCCESS = "CATEGORY_LOADED_SUCCESS";
+    public static final String CATEGORY_LIST_LOADED_SUCCESS = "CATEGORY_LIST_LOADED_SUCCESS";
+    public static final String CATEGORY_CREATED_SUCCESS = "CATEGORY_CREATED_SUCCESS";
+
+    /** ASSET **/
+    public static final String ASSET_LOADED_SUCCESS = "ASSET_LOADED_SUCCESS";
+    public static final String ASSET_LIST_LOADED_SUCCESS = "ASSET_LIST_LOADED_SUCCESS";
+    public static final String ASSET_CREATE_SUCCESS = "ASSET_CREATE_SUCCESS";
+    public static final String ASSET_UPDATE_SUCCESS = "ASSET_UPDATE_SUCCESS";
+    public static final String ASSET_DELETE_SUCCESS = "ASSET_DELETE_SUCCESS";
+
+    /** ASSET STATE **/
+    public static final String ASSET_STATE_LOADED_SUCCESS = "ASSET_STATE_LOADED_SUCCESS";
+    public static final String ASSET_STATE_LIST_LOADED_SUCCESS = "ASSET_STATE_LIST_LOADED_SUCCESS";
+
+    /** ASSIGNMENT **/
+    public static final String ASSIGNMENT_LOADED_SUCCESS = "ASSIGNMENT_LOADED_SUCCESS";
+    public static final String ASSIGNMENT_LIST_LOADED_SUCCESS = "ASSIGNMENT_LIST_LOADED_SUCCESS";
+    public static final String ASSIGNMENT_CREATE_SUCCESS = "ASSIGNMENT_CREATE_SUCCESS";
+    public static final String ASSIGNMENT_UPDATE_SUCCESS = "ASSIGNMENT_UPDATE_SUCCESS";
+    public static final String ASSIGNMENT_DELETE_SUCCESS = "ASSIGNMENT_DELETE_SUCCESS";
+    public static final String ASSIGNMENT_ACCEPT_SUCCESS = "ASSIGNMENT_ACCEPT_SUCCESS";
+    public static final String ASSIGNMENT_DECLINE_SUCCESS = "ASSIGNMENT_DECLINE_SUCCESS";
+
+    /** ASSIGNMENT STATE **/
+    public static final String ASSIGNMENT_STATE_LOADED_SUCCESS = "ASSIGNMENT_STATE_LOADED_SUCCESS";
+    public static final String ASSIGNMENT_STATE_LIST_LOADED_SUCCESS = "ASSIGNMENT_STATE_LIST_LOADED_SUCCESS";
+
+    /** REPORT **/
+    public static final String REPORT_LOADED_SUCCESS = "REPORT_LOADED_SUCCESS";
+
+    /** REQUEST **/
+    public static final String RETURN_REQUEST_ACCEPT_SUCCESS = "RETURN_REQUEST_ACCEPT_SUCCESS";
+    public static final String RETURN_REQUEST_CANCEL_SUCCESS = "RETURN_REQUEST_CANCEL_SUCCESS";
+    public static final String REQUEST_LOAD_LIST_SUCCESS = "REQUEST_LOAD_LIST_SUCCESS";
+
+    /** HISTORICAL ASSIGNMENT **/
+    public static final String HISTORICAL_ASSIGNMENT_CREATE_SUCCESS = "ERR_HISTORICAL_ASSIGNMENT_CREATE_SUCCESS";
+    public static final String REQUEST_CREATE_SUCCESS = "REQUEST_CREATE_SUCCESS";
+
+
+}
